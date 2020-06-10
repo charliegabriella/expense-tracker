@@ -4,7 +4,7 @@ export const AddTransaction = () => {
     return (
         <>
         <h3>Add new transaction</h3>
-        <form id="form">
+        <form className="form">
           <div className="form-control">
             <label htmlFor="text">Text</label>
             <input type="text" id="text" placeholder="Enter text..." />
